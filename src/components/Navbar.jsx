@@ -12,9 +12,8 @@ export const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo image" style={{ width: "120px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "120px" }} />
       </div>
-      {/*menu */}
 
       <ul className="hidden md:flex ">
         <li>
@@ -39,12 +38,10 @@ export const Navbar = () => {
         </li>
       </ul>
 
-      {/*Hamburguer */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/*Mobile menu */}
       <ul
         className={
           !nav
@@ -74,7 +71,6 @@ export const Navbar = () => {
         </li>
       </ul>
 
-      {/*Social items */}
       <div className=" hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
