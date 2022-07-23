@@ -1,7 +1,6 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
-import Zoom from "react-reveal/Zoom";
 
 export const Home = () => {
   return (
