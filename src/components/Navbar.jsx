@@ -17,27 +17,27 @@ export const Navbar = () => {
 
       <ul className="hidden md:flex ">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500} offset={-80}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500} offset={-80}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500} offset={-80}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={500} offset={-80}>
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500} offset={-80}>
             Contact
           </Link>
         </li>
@@ -51,14 +51,14 @@ export const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute -z-1 top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
             to="home"
-            offset={-50}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -69,7 +69,7 @@ export const Navbar = () => {
           <Link
             onClick={handleClick}
             to="about"
-            offset={-50}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -80,7 +80,7 @@ export const Navbar = () => {
           <Link
             onClick={handleClick}
             to="skills"
-            offset={-50}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -91,7 +91,7 @@ export const Navbar = () => {
           <Link
             onClick={handleClick}
             to="work"
-            offset={500}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -102,7 +102,7 @@ export const Navbar = () => {
           <Link
             onClick={handleClick}
             to="contact"
-            offset={-50}
+            offset={-80}
             smooth={true}
             duration={500}
           >

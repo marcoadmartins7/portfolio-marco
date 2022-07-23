@@ -1,5 +1,7 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 import Typed from "react-typed";
+import Zoom from "react-reveal/Zoom";
 
 export const Home = () => {
   return (
@@ -26,12 +28,14 @@ export const Home = () => {
           Braga.
         </p>
         <div>
-          <button className="text-white group font-bold border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-400 hover:border-amber-400">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
+          <Link to="work" smooth={true} duration={500} offset={-80}>
+            <button className="text-white group font-bold border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-400 hover:border-amber-400">
+              View Work
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

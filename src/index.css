@@ -24,3 +24,7 @@
 .content-div:hover {
   background-image: linear-gradient(to bottom, #38bdf8, #fbbf24) !important;
 }
+
+.react-reveal {
+  animation-fill-mode: backwards !important;
+}
