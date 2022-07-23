@@ -18,31 +18,43 @@ export const Skills = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            <img className="w-20 mt-4 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4 font-bold text-2xl">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
+            <img className="w-20 mt-4 mx-auto" src={CSS} alt="CSS icon" />
             <p className="my-4 font-bold text-2xl">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={JavaScript} alt="JS icon" />
+            <img className="w-20 mt-4 mx-auto" src={JavaScript} alt="JS icon" />
             <p className="my-4 font-bold text-2xl">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="React icon" />
+            <img
+              className="w-20 mt-4 mx-auto"
+              src={ReactImg}
+              alt="React icon"
+            />
             <p className="my-4 font-bold text-2xl">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="Git icon" />
+            <img className="w-20 mt-4 mx-auto" src={GitHub} alt="Git icon" />
             <p className="my-4 font-bold text-2xl">GITHUB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
+            <img
+              className="w-20 mt-4 mx-auto"
+              src={Tailwind}
+              alt="Tailwind icon"
+            />
             <p className="my-4 font-bold text-2xl">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-[110px] mx-auto" src={Mysql} alt="Mysql icon" />
+            <img
+              className="w-[110px] mt-4 mx-auto"
+              src={Mysql}
+              alt="Mysql icon"
+            />
             <p className="my-4 font-bold text-2xl">MYSQL</p>
           </div>
         </div>

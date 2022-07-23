@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "120px" }} />
+        <img className="w-[100px] mx-auto" src={Logo} alt="Logo" />
       </div>
 
       <ul className="hidden md:flex ">
@@ -29,6 +29,11 @@ export const Navbar = () => {
         <li>
           <Link to="skills" smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500}>
+            Work
           </Link>
         </li>
         <li>
@@ -50,22 +55,57 @@ export const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="home"
+            offset={-50}
+            smooth={true}
+            duration={500}
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            offset={-50}
+            smooth={true}
+            duration={500}
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            offset={-50}
+            smooth={true}
+            duration={500}
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="work"
+            offset={500}
+            smooth={true}
+            duration={500}
+          >
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="contact"
+            offset={-50}
+            smooth={true}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
