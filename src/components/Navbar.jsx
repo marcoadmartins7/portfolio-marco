@@ -10,7 +10,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50">
       <div>
         <img className="w-[100px] mx-auto" src={Logo} alt="Logo" />
       </div>
@@ -27,12 +27,12 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} offset={-80}>
+          <Link to="skills" smooth={true} duration={500} offset={-270}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500} offset={-80}>
+          <Link to="work" smooth={true} duration={500} offset={-20}>
             Work
           </Link>
         </li>
@@ -43,7 +43,10 @@ export const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div
+        onClick={handleClick}
+        className="md:hidden absolute z-50 right-0 mr-[2rem]"
+      >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -51,7 +54,7 @@ export const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute -z-1 top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute z-40 top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -117,6 +120,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/marcoadmartins7/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -125,6 +129,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/marcoadmartins7"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -133,6 +138,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
+              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -141,6 +147,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
