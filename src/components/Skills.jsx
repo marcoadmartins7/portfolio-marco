@@ -23,10 +23,10 @@ export const Skills = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <Fade left delay={150} duration={1000} distance={"6rem"}>
           <div>
-            <p className="text-4xl font-bold inline border-b-4 border-amber-400  ">
+            <p className="text-6xl font-bold inline border-b-4 border-amber-400  ">
               Skills
             </p>
-            <p className="py-4 ">
+            <p className="py-4 text-2xl ">
               There are the techonologies I've worked with
             </p>
           </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/logo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiOutlineBars } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -45,9 +46,9 @@ export const Navbar = () => {
 
       <div
         onClick={handleClick}
-        className="md:hidden absolute z-50 right-0 mr-[2rem]"
+        className="md:hidden absolute  z-50 right-0 mr-[2rem]"
       >
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <AiOutlineBars /> : <FaTimes />}
       </div>
 
       <ul
@@ -120,7 +121,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/marcoadmartins7/"
-              rel="_blank"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -129,7 +130,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/marcoadmartins7"
-              rel="_blank"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>

@@ -13,10 +13,10 @@ export const Contact = () => {
       >
         <Fade bottom delay={150} duration={1000}>
           <div className="pb-8 ">
-            <p className="text-4xl font-bold inline border-b-4 border-amber-400 text-gray-300">
+            <p className="text-6xl font-bold inline border-b-4 border-amber-400 text-gray-300">
               Contact
             </p>
-            <p className="text-gray-300 py-4">
+            <p className="text-gray-300  py-4">
               Submit the form below or send me a message +351 910 900 313
             </p>
           </div>
@@ -24,13 +24,13 @@ export const Contact = () => {
 
         <Fade bottom delay={200} distance={"6rem"} duration={1000}>
           <input
-            className="bg-[#ccd6f6] p-2"
+            className="bg-[#ccd6f6] p-4"
             type="text"
             placeholder="Name"
             name="name"
           />
           <input
-            className="my-4 p-2 bg-[#ccd6f6]"
+            className="my-4 p-4 bg-[#ccd6f6]"
             type="email"
             placeholder="Email"
             name="email"

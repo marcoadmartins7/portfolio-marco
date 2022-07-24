@@ -8,7 +8,7 @@ export const Home = () => {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <div className="w-full  ">
         <img
-          className=" w-[230px] sm:w-[500px] opacity-40 sm:absolute absolute top-[39%] sm:top-[6rem] left-[45%] sm:left-[10%] sm:ml-[2rem] "
+          className=" w-[400px] sm:w-[500px] opacity-40 sm:absolute absolute top-[19%] sm:top-[6rem] right-[5%] sm:left-[10%] sm:ml-[2rem] "
           src={Marco}
           alt=""
         />
