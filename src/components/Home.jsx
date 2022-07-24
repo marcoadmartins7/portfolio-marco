@@ -6,9 +6,9 @@ import Marco from "../assets/marco.png";
 export const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
-      <div className="w-full ml-[10rem]">
+      <div className="w-full  ">
         <img
-          className=" w-[300px] sm:w-[500px] opacity-40 sm:absolute absolute top-[17.5rem] sm:top-[6rem]  ml-[1rem] sm:ml-[2rem] "
+          className=" w-[230px] sm:w-[500px] opacity-40 sm:absolute absolute top-[39%] sm:top-[6rem] left-[45%] sm:left-[10%] sm:ml-[2rem] "
           src={Marco}
           alt=""
         />
