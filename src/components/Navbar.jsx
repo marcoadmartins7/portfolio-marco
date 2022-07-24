@@ -120,7 +120,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/marcoadmartins7/"
-              target="_blank"
+              rel="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -129,7 +129,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/marcoadmartins7"
-              target="_blank"
+              rel="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -138,7 +138,6 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
-              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -147,7 +146,6 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
-              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
