@@ -46,7 +46,7 @@ export const Home = () => {
             </button>
           </Link>
         </div>
-        <div className=" absolute sm:bottom-[21rem] bottom-[10rem] r cursor-pointer right-0 ">
+        <div className=" absolute sm:bottom-[21rem] bottom-[7.5rem] r cursor-pointer right-0 ">
           <div className=" absolute   ">
             <Link to="contact" smooth={true} duration={500} offset={-80}>
               <BsArrow90DegDown color="white" size={"2rem"} />
