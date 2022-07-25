@@ -1,5 +1,6 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { BsArrow90DegDown } from "react-icons/bs";
 import Typed from "react-typed";
 import Marco from "../assets/marco.png";
 
@@ -44,6 +45,18 @@ export const Home = () => {
               </span>
             </button>
           </Link>
+        </div>
+        <div>
+          <div className="absolute right-8 sm:bottom-[21rem] bottom-[5rem]  cursor-pointer">
+            <Link to="contact" smooth={true} duration={500} offset={-80}>
+              <BsArrow90DegDown color="white" size={"2rem"} />
+            </Link>
+          </div>
+          <div className=" absolute right-[-2.3rem] sm:bottom-[21rem] bottom-[5rem] rotate-90 font-bold text-[1.2rem] text-gray-300  cursor-pointer">
+            <Link to="contact" smooth={true} duration={500} offset={-80}>
+              Scroll Down
+            </Link>
+          </div>
         </div>
       </div>
     </div>

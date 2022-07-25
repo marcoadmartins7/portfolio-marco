@@ -13,7 +13,7 @@ export const Contact = () => {
       >
         <Fade bottom delay={150} duration={1000}>
           <div className="pb-8 ">
-            <p className="text-6xl font-bold inline border-b-4 border-amber-400 text-gray-300">
+            <p className="text-4xl sm:text-6xl font-bold inline border-b-4 border-amber-400 text-gray-300">
               Contact
             </p>
             <p className="text-gray-300  py-4">

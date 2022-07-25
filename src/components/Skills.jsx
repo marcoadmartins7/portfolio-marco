@@ -20,10 +20,10 @@ export const Skills = () => {
   ];
   return (
     <div name="skills" className="bg-[#0a192f] text-gray-300 w-full h-full">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <Fade left delay={150} duration={1000} distance={"6rem"}>
           <div>
-            <p className="text-6xl font-bold inline border-b-4 border-amber-400  ">
+            <p className="text-4xl sm:text-6xl font-bold inline border-b-4 border-amber-400  ">
               Skills
             </p>
             <p className="py-4 text-2xl ">

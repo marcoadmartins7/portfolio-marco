@@ -16,7 +16,7 @@ export const Navbar = () => {
         <img className="w-[100px] mx-auto" src={Logo} alt="Logo" />
       </div>
 
-      <ul className="hidden md:flex ">
+      <ul className="hidden md:flex font-bold ">
         <li>
           <Link to="home" smooth={true} duration={500} offset={-80}>
             Home
@@ -48,7 +48,7 @@ export const Navbar = () => {
         onClick={handleClick}
         className="md:hidden absolute  z-50 right-0 mr-[2rem]"
       >
-        {!nav ? <AiOutlineBars /> : <FaTimes />}
+        {!nav ? <AiOutlineBars size={30} /> : <FaTimes size={30} />}
       </div>
 
       <ul
@@ -140,7 +140,9 @@ export const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:marcoadmartins7@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
