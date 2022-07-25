@@ -122,6 +122,7 @@ export const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/marcoadmartins7/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -131,6 +132,7 @@ export const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/marcoadmartins7"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
