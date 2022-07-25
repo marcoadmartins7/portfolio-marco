@@ -46,13 +46,13 @@ export const Home = () => {
             </button>
           </Link>
         </div>
-        <div>
-          <div className="absolute right-8 sm:bottom-[21rem] bottom-[5rem]  cursor-pointer">
+        <div className=" absolute sm:bottom-[21rem] bottom-[13rem] r cursor-pointer right-0 ">
+          <div className=" absolute   ">
             <Link to="contact" smooth={true} duration={500} offset={-80}>
               <BsArrow90DegDown color="white" size={"2rem"} />
             </Link>
           </div>
-          <div className=" absolute right-[-2.3rem] sm:bottom-[21rem] bottom-[5rem] rotate-90 font-bold text-[1.2rem] text-gray-300  cursor-pointer">
+          <div className="    rotate-90 font-bold text-[1.2rem] text-gray-300  ">
             <Link to="contact" smooth={true} duration={500} offset={-80}>
               Scroll Down
             </Link>
