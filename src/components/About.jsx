@@ -16,17 +16,16 @@ export const About = () => {
 
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <Fade left delay={150} duration={1000}>
-            <div className="sm:text-right text-4xl font-bold ">
-              <p>Hi. I'm Marco, nice to meet you. Please take a look around.</p>
+            <div className="sm:text-right text-5xl font-bold ">
+              <p>Hi, nice to meet you. Please take a look around.</p>
             </div>
           </Fade>
           <Fade bottom delay={150} duration={1000}>
-            <div>
+            <div className="text-[1.2rem]">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium facere totam reiciendis sunt cum eveniet ducimus
-                quos recusandae ipsum molestiae, doloremque ratione ab
-                accusantium quibusdam labore aperiam impedit dolorem amet.
+                My name is Marco Martins. I'm a front-end web developer focused
+                on making beautiful and functional websites. My first real
+                project in ReactJs and Tailwinds was this website portfolio.
               </p>
             </div>
           </Fade>
