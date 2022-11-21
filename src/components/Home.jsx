@@ -38,7 +38,7 @@ export const Home = () => {
         </p>
         <div>
           <Link to="work" smooth={true} duration={500} offset={-80}>
-            <button className="text-white group font-bold border-2 px-6 py-3 my-2 flex justify-start items-center hover:bg-amber-400 hover:border-amber-400">
+            <button className="text-white group font-bold border-2 rounded-[3rem] px-6 py-3 my-2 flex justify-start items-center hover:bg-amber-400 hover:border-amber-400">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />

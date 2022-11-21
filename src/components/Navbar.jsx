@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 import { FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineBars } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
@@ -147,15 +147,17 @@ export const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]"> 
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-          */}
+          {
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+              <a
+                className="flex justify-between items-center w-full text-gray-300"
+                href="curriculo.pdf"
+                target="_blank"
+              >
+                Resume <BsFillPersonLinesFill size={30} />
+              </a>
+            </li>
+          }
         </ul>
       </div>
     </div>

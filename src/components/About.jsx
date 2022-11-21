@@ -25,7 +25,7 @@ export const About = () => {
               <p>
                 My name is Marco Martins. I'm a front-end web developer focused
                 on making beautiful and functional websites. My first real
-                project in ReactJs and Tailwinds was this website portfolio.
+                project in ReactJs and Tailwind was this website portfolio.
               </p>
             </div>
           </Fade>
