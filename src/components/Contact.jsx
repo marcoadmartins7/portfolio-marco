@@ -36,7 +36,7 @@ export const Contact = () => {
             name="email"
           />
           <textarea
-            className="bg-[#ccd6f6] p-2"
+            className="my-4 p-4 bg-[#ccd6f6] "
             name="message"
             rows="10"
             placeholder="Message"
