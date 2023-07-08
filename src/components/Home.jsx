@@ -32,7 +32,7 @@ export const Home = () => {
         />
 
         <p className="text-[#a9b1c7] py-4 max-w-[700px] font-bold">
-          I am 21 years old and i'm a highly motivated and ambitious Computer
+          I am 22 years old and i'm a highly motivated and ambitious Computer
           Science student, actively looking for an entry-level position in
           Braga.
         </p>
