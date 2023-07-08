@@ -28,7 +28,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} offset={-270}>
+          <Link to="skills" smooth={true} duration={500} offset={-120}>
             Skills
           </Link>
         </li>
