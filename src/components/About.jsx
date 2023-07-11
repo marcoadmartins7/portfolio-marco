@@ -2,7 +2,7 @@ import Fade from "react-reveal/Fade";
 
 export const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full md:h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full pb-[10rem]">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <Fade top delay={150} duration={1000}>
